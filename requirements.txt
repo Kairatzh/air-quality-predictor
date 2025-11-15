@@ -4,6 +4,8 @@ pydantic
 pandas
 numpy
 uvicorn
+matplotlib
+seaborn
 
 pyyaml
 pytest
