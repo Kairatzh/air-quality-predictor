@@ -5,7 +5,7 @@ import numpy as np
 
 router = APIRouter()
 
-model = joblib.load("model.joblib")
+model = joblib.load("C:/Users/User/Desktop/projects/air-quality-predictor/ml/model.joblib")
 
 @router.post("/api/generate", response_model=Response)
 def predict(request: Request):
