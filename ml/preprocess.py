@@ -7,10 +7,10 @@ from sklearn.model_selection import train_test_split
 data = pds.read_csv("C:/Users/User/Desktop/projects/air-quality-predictor/data/airPollutions.csv")
 
 """ --Check Data-- """
-print(data.head(3))
-print(data.info())
-print(data.describe())
-print(data.shape)
+# print(data.head(3))
+# print(data.info())
+# print(data.describe())
+# print(data.shape)
 
 """ --Data Engineering-- """
 cols = [
@@ -26,10 +26,10 @@ data = data.dropna(subset=cols)
 data["Air Quality"] = data["Air Quality"].fillna(data["Air Quality"].mode()[0])
 
 """ -- Final data-- """
-print(data.head(3))
-print(data.info())
-print(data.describe())
-print(data.shape)
+# print(data.head(3))
+# print(data.info())
+# print(data.describe())
+# print(data.shape)
 
 
 """ --Scaling Data-- """
