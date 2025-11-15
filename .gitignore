@@ -1,3 +1,59 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# Environments
 .venv/
+venv/
+env/
+ENV/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Logs
+*.log
+logs/
+*.out
+
+# Cache
+.cache/
+*.cache
+*.pickle
+*.joblib
+
+# Build
+build/
+dist/
+*.egg-info/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Pytest cache
+.pytest_cache/
+
+# VSCode
+.vscode/
+
+# IDEs
 .idea/
-.env
+
+# FastAPI / Uvicorn
+*.sqlite
+*.db
+
+# Data (если большие датасеты)
+data/*.csv
+data/*.parquet
+
+# Docker
+docker-compose.override.yml
+
+# Configs (если приватные)
+*.env
+.env.*
